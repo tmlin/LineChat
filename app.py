@@ -46,7 +46,7 @@ line_bot_api = LineBotApi('dzzEP8ta0f+nD85xgfNg3+B36LZAB6LUkUeL9IZHZj041oyL28U+4
   #line_bot_api.get_webhook_endpoint()
 #你的LINE頻道密鑰 secret
 handler = WebhookHandler('fbcb058bf1da7b75c8cb89812138af2d')
-render_url="https://line-48vn.onrender.com//callback"  
+render_url="https://linechat-b6ah.onrender.com"  
 #flex_contents=json.loads(open("flex/hotel.json").read())
 flex_send_message = FlexSendMessage(
     alt_text='hello',
