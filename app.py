@@ -122,7 +122,7 @@ def led():
   id=request.args.get("id")
   sw=request.args.get("sw")
   if id and sw:
-    message=f"1/tmlin/st00/led/{id}/value/{sw}" 
+    message=f"1/tmlin/st00/led/{id}/light/{sw}" 
     publish(topic,message)
     return "開燈" if sw=="1" else "關燈"
   return "格式錯誤?"
