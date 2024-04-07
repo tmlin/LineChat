@@ -15,7 +15,7 @@ client_id=f"tmlin-{random.randint(0,10000)}"
 client = mqtt.Client(client_id)
 client.on_connect = on_connect
 client.on_message = on_message
-client.connect("broker.mqttdashboard.com", 1883, 60)
+client.connect("broker.mqtt-dashboard.com", 1883, 60)
 topic="20230313/ESP32/AIOT"
 
     
